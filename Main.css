@@ -1,0 +1,139 @@
+/*#region Classes*/
+.MainInfo{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+.presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Tipografia{
+    font-family: 'Francois One', sans-serif;
+}
+    /*#region About me*/
+    .About{
+        display: flex;
+        justify-content: center;
+        margin-top: 5em;
+        margin-bottom: -0.7em;
+    }
+    .General-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*#endregion*/
+    /*#region Experience*/
+    .Experience{
+        display: flex;
+        margin-top: 5em;
+        justify-content: space-around;
+    }
+    /*#endregion*/
+/*#endregion*/
+
+/*#region IDs*/
+#Logo{
+    display: flex;
+    justify-content: flex-start;
+}
+#Carlos,#Garzon{
+    display: flex;
+    color: #e52b54;
+    font-size: 3em;
+    margin-top: -0.4em;
+}
+#HELLO{
+    color: #848484;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+#GAME{
+    margin-top: -0.6em;
+    font-size: 0.8em;
+}
+#IM{
+    font-size: 2.5em;
+}
+#img-container{
+    display: flex;
+    align-self: flex-end;
+}
+    /*#region About me*/
+    #who,#am{
+        display: flex;
+        color: #e52b54;
+        font-size: 1em;
+        margin-right: 0.5em;
+    }
+    #i{
+        display: flex;
+        color: black;
+        font-size: 1em;
+        margin-right: 0.5em;
+    }
+    #me{
+        display: flex;
+        color: black;
+        font-size: 2.5em;
+    }
+    #descripcion{
+        display: flex;
+        color: black;
+        font-size: 0.8em;
+        width: 40em;
+    }
+    /*#endregion*/
+    /*#region Experience*/
+    #Titulo{
+        font-size: 1.3em;
+        justify-content: center;
+    }
+    #Learn-English,#Sena,#UAO{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8em;
+        margin-top: 1.5em;
+    }
+    #fecha{
+        color: black;
+        font-weight: bold;
+        margin-bottom: 0.8em;
+        font-size: 1em;
+    }
+    #estudio{
+        color: #e52b54;
+        font-size: 1.3em;
+    }
+    #instituto{
+        color: #848484;
+        font-size: 0.9em;
+    }
+    #Education-jobs{
+        display: flex;
+        flex-direction: row;
+    }
+    #Education{
+        margin-right: 1em;
+    }
+    /*#endregion*/
+    /*#region Skills*/
+    #skill{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 1em;
+    }
+    #porcentaje{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    }
+    #Progresss{
+    background-color: red;
+    border-radius: 13px;
+    }
+    /*#endregion*/
+/*#endregion*/
