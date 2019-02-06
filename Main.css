@@ -231,26 +231,26 @@
 @media (max-width: 1440px) and (min-width: 1240px) {
     /*#region Main-info*/
     .resize{
-        width:706.6px;
-        height:704.6px;
+        width:606.6px;
+        height:604.6px;
     }
     #HELLO {
-        font-size: 1.5em;
+        font-size: 1.2em;
         margin-bottom: 1em;
     }
     #GAME{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     #Carlos,#Garzon{
-        font-size: 4.65em;
+        font-size: 3.65em;
     }
     #IM{
-        font-size: 3.5em;
+        font-size: 2.5em;
     }
     /*#endregion*/
     /*#region About-me*/
     #Descripcion{
-        font-size: 1.5em;
+        font-size: 1.2em;
         width: 50em;
     }
     #who,#am{
@@ -264,7 +264,7 @@
     /*#endregion*/
     /*#region Experience*/
     #Titulo{
-        font-size: 2.5em;
+        font-size: 1.9em;
         text-align: center;
     }
     #Learn-English,#Sena,#UAO{
@@ -272,22 +272,22 @@
         margin-top: 0.5em;
     }
     #fecha{
-        font-size: 1.1em;
+        font-size: 0.8em;
         margin-bottom: 0.5em;
     }
     #estudio{
-        font-size: 1.5em;
+        font-size: 0.9em;
     }
     #instituto{
-        font-size: 1em;
+        font-size: 0.9em;
     }
     #skill{
-        margin-top: 1em;
+        margin-top: 0.9em;
         width: 20em;
     }
     #porcentaje{
         justify-content: space-between;
-        font-size: 1.3em;
+        font-size: 1em;
     }
     #Progress{
         height:20px;
