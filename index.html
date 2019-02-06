@@ -3,14 +3,12 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="Main.css">
         <title>Carlos Garzón CV</title>
     </head>
     <body>
         <section id="Main-info">
-            <div id="Logo">
-                <img src="Logo.png" alt="Witch Nighto Studio" width="115.5" height="110">
-            </div>
             <div id="Main-info-div" class="MainInfo">
                 <div id="Presentation" class="presentation">
                         <u id="HELLO" class="Tipografia">HELLO</u>
@@ -20,7 +18,7 @@
                         <a id="GAME" class="Tipografia">GAME DESIGNER</a>
                 </div>
                 <div id="img-container">
-                        <img src="2.png" alt="Carlos Garzón" width="537.5" height="536">
+                        <img class="resize" src="2.png" alt="Carlos Garzón">
                 </div>
             </div>
         </section>
@@ -36,87 +34,99 @@
             </div>
         </section>
         <section class="Experience">
-            <div>
-                <a id="Titulo" class="Tipografia">EDUCATION</a>
-                <div id="Education-jobs">
-                    <div id="Education">
-                        <div id="UAO">
-                            <a id="fecha" class="Tipografia">August 2013 - Present</a>
-                            <a id="estudio" class="Tipografia">Multimedia Engineering</a>
-                            <a id="instituto" class="Tipografia">Universidad Autónoma de Occidente</a>
+            <div id="Experience-div-principal">
+                    <div id="Education-div">
+                            <div id="Education-jobs">
+                                <div id="Education">
+                                <a id="Titulo" class="Tipografia">EDUCATION</a>
+                                    <div id="UAO">
+                                        <a id="fecha" class="Tipografia">August 2013 - Present</a>
+                                        <a id="estudio" class="Tipografia">Multimedia Engineering</a>
+                                        <a id="instituto" class="Tipografia">Universidad Autónoma de Occidente</a>
+                                    </div>
+                                    <div id="Sena">
+                                        <a id="fecha" class="Tipografia">May 2014 - September 2014</a>
+                                        <a id="estudio" class="Tipografia">3D video games development</a>
+                                        <a id="instituto" class="Tipografia">SENA Virtual</a>
+                                    </div>
+                                    <div id="Learn-English">
+                                        <a id="fecha" class="Tipografia">February 2014 - June 2014</a>
+                                        <a id="estudio" class="Tipografia">Advanced English</a>
+                                        <a id="instituto" class="Tipografia">Learn English</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div id="Sena">
-                            <a id="fecha" class="Tipografia">May 2014 - September 2014</a>
-                            <a id="estudio" class="Tipografia">3D video games development</a>
-                            <a id="instituto" class="Tipografia">SENA Virtual</a>
+                        <div id="Experience-div">
+                            <div id="Jobs">
+                                    <a id="Titulo" class="Tipografia">EXPERIENCE</a>
+                                    <div id="UAO">
+                                        <a id="fecha" class="Tipografia">September 2018 - Present</a>
+                                        <a id="estudio" class="Tipografia">Game Designer</a>
+                                        <a id="instituto" class="Tipografia">Witch Nighto Studio</a>
+                                    </div>
+                                    <div id="Sena">
+                                        <a id="fecha" class="Tipografia">January 2017 - November 2018</a>
+                                        <a id="estudio" class="Tipografia">VR Video games Developer</a>
+                                        <a id="instituto" class="Tipografia">Research group in graphic computing for virtual reality</a>
+                                    </div>
+                                    <div id="Learn-English">
+                                        <a id="fecha" class="Tipografia">January 2015 - July 2017</a>
+                                        <a id="estudio" class="Tipografia">Community Manager</a>
+                                        <a id="instituto" class="Tipografia">Autos G3 Usados</a>
+                                    </div>
+                                </div> 
                         </div>
-                        <div id="Learn-English">
-                            <a id="fecha" class="Tipografia">February 2014 - June 2014</a>
-                            <a id="estudio" class="Tipografia">Advanced English</a>
-                            <a id="instituto" class="Tipografia">Learn English</a>
+                        <div id="Skills-div">
+                            <div>
+                                <a id="Titulo" class="Tipografia">SKILLS & ABILITIES</a>
+                                <div id="skill">
+                                    <div id="porcentaje">
+                                        <a class="Tipografia">Unity</a>
+                                        <a class="Tipografia">80%</a>
+                                    </div>
+                                    <div class="w3-light-grey w3-round-xlarge">
+                                        <div class="w3-container w3-blue w3-round-xlarge" id="Progress" style="width:80%"></div>
+                                    </div>
+                                </div>
+                                <div id="skill">
+                                    <div id="porcentaje">
+                                        <a class="Tipografia">Game Design</a>
+                                        <a class="Tipografia">72%</a>
+                                    </div>
+                                    <div class="w3-light-grey w3-round-xlarge">
+                                        <div class="w3-container w3-blue w3-round-xlarge" id="Progress" style="width:72%"></div>
+                                    </div>
+                                </div>
+                                <div id="skill">
+                                    <div id="porcentaje">
+                                        <a class="Tipografia">C#,Java,HTML5,CSS,Js</a>
+                                        <a class="Tipografia">70%</a>
+                                    </div>
+                                    <div class="w3-light-grey w3-round-xlarge">
+                                        <div class="w3-container w3-blue w3-round-xlarge" id="Progress" style="width:70%"></div>
+                                    </div>
+                                </div>
+                                <div id="skill">
+                                    <div id="porcentaje">
+                                        <a class="Tipografia">3D Modeling Engine</a>
+                                        <a class="Tipografia">50%</a>
+                                    </div>
+                                    <div class="w3-light-grey w3-round-xlarge">
+                                        <div class="w3-container w3-blue w3-round-xlarge" id="Progress" style="width:50%"></div>
+                                    </div>
+                                </div>
+                                <div id="skill">
+                                    <div id="porcentaje">
+                                        <a class="Tipografia">UI & UX</a>
+                                        <a class="Tipografia">45%</a>
+                                    </div>
+                                    <div class="w3-light-grey w3-round-xlarge">
+                                        <div class="w3-container w3-blue w3-round-xlarge" id="Progress" style="width:45%"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <a id="Titulo" class="Tipografia">EXPERIENCE</a>
-                <div id="Jobs">
-                        <div id="UAO">
-                            <a id="fecha" class="Tipografia">September 2018 - Present</a>
-                            <a id="estudio" class="Tipografia">Game Designer</a>
-                            <a id="instituto" class="Tipografia">Witch Nighto Studio</a>
-                        </div>
-                        <div id="Sena">
-                            <a id="fecha" class="Tipografia">January 2017 - November 2018</a>
-                            <a id="estudio" class="Tipografia">VR Video games Developer</a>
-                            <a id="instituto" class="Tipografia">Research group in graphic computing for virtual reality</a>
-                        </div>
-                        <div id="Learn-English">
-                            <a id="fecha" class="Tipografia">January 2015 - July 2017</a>
-                            <a id="estudio" class="Tipografia">Community Manager</a>
-                            <a id="instituto" class="Tipografia">Autos G3 Usados</a>
-                        </div>
-                    </div> 
-            </div>
-            <div id="SKILLS">
-                <a id="Titulo" class="Tipografia">SKILLS & ABILITIES</a>
-                <div>
-                    <div id="skill">
-                        <div id="porcentaje">
-                            <a class="Tipografia">Unity</a>
-                            <a class="Tipografia">80%</a>
-                        </div>
-                        <progress id="Progress" max="100" value="80"></progress>
-                    </div>
-                    <div id="skill">
-                        <div id="porcentaje">
-                            <a class="Tipografia">Game Design</a>
-                            <a class="Tipografia">72%</a>
-                        </div>
-                        <progress id="Progress" max="100" value="72"></progress>
-                    </div>
-                    <div id="skill">
-                        <div id="porcentaje">
-                            <a class="Tipografia">C#,Java,HTML5,CSS,Js</a>
-                            <a class="Tipografia">70%</a>
-                        </div>
-                        <progress id="Progress" max="100" value="70"></progress>
-                    </div>
-                    <div id="skill">
-                        <div id="porcentaje">
-                            <a class="Tipografia">3D Modeling Engine</a>
-                            <a class="Tipografia">50%</a>
-                        </div>
-                        <progress id="Progress" max="100" value="50"></progress>
-                    </div>
-                    <div id="skill">
-                        <div id="porcentaje">
-                            <a class="Tipografia">UI & UX</a>
-                            <a class="Tipografia">45%</a>
-                        </div>
-                        <progress id="Progress" max="100" value="45"></progress>
-                    </div>
-                </div>
             </div>
         </section>
     </body>
