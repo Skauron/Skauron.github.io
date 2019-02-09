@@ -5,6 +5,7 @@
         <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="Main.css">
+        <script src="Scripts/video.js"></script>
         <title>Carlos Garzón CV</title>
     </head>
     <body>
@@ -127,6 +128,20 @@
                                 </div>
                             </div>
                         </div>
+            </div>
+        </section>
+        <section id="Portafolio">
+            <div id="portafolio-div">
+                <div id="buttons">
+                        <button class="button" onclick="changeVideo('/videos/gato360.mp4')">GATO</button>
+                        <button class="button" onclick="changeVideo('/videos/evil.mp4')">EVIL</button>
+                        <button class="button" onclick="changeVideo('/videos/heroe.mp4')">HEROE</button>
+                        <button class="button" onclick="changeVideo('/videos/lego.mp4')">LEGO</button>
+                        <button class="button" onclick="changeVideo('/videos/FTATFFM.mp4')">MUSIC</button>
+                </div>
+                <video id="video-portafolio" loop="true" autoplay>
+                    <source id="SourceVideo" src="\videos\gato360.mp4" type="video/mp4">
+                </video>
             </div>
         </section>
         <section id="Contact">
