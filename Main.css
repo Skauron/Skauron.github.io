@@ -490,14 +490,14 @@
         margin-top: 0.5em;
     }
     #fecha{
-        font-size: 1em;
+        font-size: 0.8em;
         margin-bottom: 0.5em;
     }
     #estudio{
-        font-size: 1.5em;
+        font-size: 1em;
     }
     #instituto{
-        font-size: 1em;
+        font-size: 0.7em;
     }
     #skill{
         margin-top: 1em;
@@ -505,7 +505,7 @@
     }
     #porcentaje{
         justify-content: space-between;
-        font-size: 2.1em;
+        font-size: 1.5em;
     }
     #Progress{
         height:25px;
