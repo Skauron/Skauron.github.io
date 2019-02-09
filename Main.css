@@ -262,6 +262,9 @@
         height:30px;
     }
     /*#endregion*/
+    .MainInfo,#About-me,.Experience{
+        margin-left: 1em;
+    }
 }
 @media (max-width: 1240px) and (min-width: 1024px) {
     /*#region Main-info*/
