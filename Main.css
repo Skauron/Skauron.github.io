@@ -316,6 +316,23 @@
     .MainInfo,#About-me,.Experience{
         margin-left: 1em;
     }
+    /*#region Contact*/
+    #get-in-touch{
+        font-size: 2em;
+    }
+    #contact-p{
+        font-size: 3em;
+    }
+    #email{
+        font-size: 2em;
+    }
+    #celular{
+        font-size: 2em;
+    }
+    #derechos{
+        font-size: 1.5em;
+    }
+    /*#endregion*/
 }
 @media (max-width: 1240px) and (min-width: 1024px) {
     /*#region Main-info*/
