@@ -459,6 +459,12 @@
     #Progress{
         height:25px;
     }
+    #Education-div{
+        margin-left: 3em;
+    }
+    #Skills-div{
+        margin-right: 3em;
+    }
     /*#endregion*/
 }
 @media (min-width: 2173px) {
