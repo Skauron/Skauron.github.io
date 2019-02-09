@@ -557,11 +557,11 @@
     /*#endregion*/
     /*#region Experience*/
     #Titulo{
-        font-size: 5.5em;
+        font-size: 3.5em;
         text-align: center;
     }
     #Learn-English,#Sena,#UAO{
-        font-size: 2.3em;
+        font-size: 2em;
         margin-top: 0.5em;
     }
     #fecha{
@@ -580,7 +580,7 @@
     }
     #porcentaje{
         justify-content: space-between;
-        font-size: 2.5em;
+        font-size: 2em;
     }
     #Progress{
         height:45px;
