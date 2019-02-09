@@ -30,6 +30,14 @@
     font-size: 16px;
     margin: 4px 2px;
 }
+.button:hover{
+    background-color: #5c5c5c;
+    color: #f4f4f4;
+}
+.button:focus{
+    background-color: #5c5c5c;
+    color: #f4f4f4;
+}
     /*#region About me*/
     .About{
         display: flex;
@@ -86,6 +94,7 @@
         color: #e52b54;
         font-size: 1em;
         margin-right: 0.5em;
+        justify-content: center;
     }
     #i{
         display: flex;
@@ -168,6 +177,7 @@
     font-size: 0.8em;
     }
     #Progress{
+        background-color: #c62549 !important;
         height:24px;
     }
     /*#endregion*/
@@ -177,6 +187,11 @@
         flex-direction: column;
         margin-bottom: 5em;
     }
+    #some-works-div{
+        display: flex;
+        flex-direction: column;
+
+    }
     #buttons{
         display: flex;
         justify-content: center;
@@ -185,6 +200,20 @@
         align-self: center;
         width: 1280px;
         height: 720px;
+    }
+    #some{
+        display: flex;
+        color: #e52b54;
+        font-size: 1em;
+        justify-content: center;
+        margin-bottom: -0.5em;
+    }
+    #portfolio{
+        display: flex;
+        font-size: 2em;
+        justify-content: center;
+        margin-top: 0em;
+        margin-bottom: 0em;
     }
     /*#endregion*/
     /*#region Contact*/
