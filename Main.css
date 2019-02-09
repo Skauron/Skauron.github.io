@@ -407,7 +407,7 @@
     }
     /*#endregion*/
     .MainInfo,#About-me,.Experience{
-        margin-left: 1em;
+        margin-left: 0.2em;
     }
 }
 @media (max-width: 1240px) and (min-width: 1024px) {
